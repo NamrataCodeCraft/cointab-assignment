@@ -27,7 +27,7 @@ const Home = () => {
 
       <div >
         <h1>WELCOME</h1>
-        <button className='btn' style={{  'cursor': flag ? 'not-allowed' : 'default'}} onClick={() => { flag ? alert('you already clickred') : getData(); }}> fetch data </button>
+        <button className='btn' style={{  'cursor': flag ? 'not-allowed' : 'default'}} onClick={() => { flag ? alert('you already clicked') : getData(); }}> fetch data </button>
       </div>
       <div className='alldata'>
         {datas.length == 0 ? 'Click Button to fetch data' :
